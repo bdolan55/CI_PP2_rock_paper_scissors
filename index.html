@@ -4,10 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ecdda7faf4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>Rock Paper Scissors ¦ Home</title>
 </head>
-<body>
+<body> 
+    <div class="heading_container">
+        <h1 class="heading"> Rock Paper Scissors Game </h1>
+        <div class="how_to_play_container">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+               Tempora fuga nostrum dicta numquam delectus sunt nobis ut earum 
+               reprehenderit. Distinctio, sequi magnam? Qui asperiores repudiandae 
+               nulla vero beatae est sed quas aspernatur ipsum expedita perspiciatis, 
+               consequatur deleniti laboriosam vitae labore?</p>
+               <ul>
+                <li>Rock beats Scissors</li>
+                <li>Scissors beats Paper</li>
+                <li>Paper beats Rock</li>
+               </ul>
+        </div>
+    </div>
+    <div class="scores_area">
+        <p class="scores">Player score <span id="playerScore">0</span></p>
+        <p class="scores">Computer Score <span id="compScore">0</span></p>
+    </div>
+    <div class="game_area_container">
+        <div class="game-area">
+            <button data-type="rock" class="rock_btn">
+                <i class="fa-solid fa-hand-back-fist"></i>
+            </button>
+            <button data-type="paper" class="paper_btn">
+                <i class="fa-solid fa-hand"></i>
+            </button>
+            <button data-type="scissors"class="scissors btn">
+                <i class="fa-solid fa-hand-scissors"></i>
+         </div>
+         <button data-type="submit" class="submit_btn">Fight</button>
+    </div>
+
+
     
 
  <script src="assets/JS/script.js"></script>   
