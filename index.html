@@ -12,32 +12,32 @@
     <div class="heading_container">
         <h1 class="heading"> Rock Paper Scissors Game </h1>
         <div class="how_to_play_container">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-               Tempora fuga nostrum dicta numquam delectus sunt nobis ut earum 
-               reprehenderit. Distinctio, sequi magnam? Qui asperiores repudiandae 
-               nulla vero beatae est sed quas aspernatur ipsum expedita perspiciatis, 
-               consequatur deleniti laboriosam vitae labore?</p>
+                <p>Rock paper scissors is a simple hand game played by two people. To play the game, 
+                the user is against the computer. The user must choose one of three hand signs below 
+                representing the rock, the paper or the scissors.The game has three possible outcomes 
+                which are outlined below.
+                </p>
                <ul>
-                <li>Rock beats Scissors</li>
-                <li>Scissors beats Paper</li>
-                <li>Paper beats Rock</li>
+                <li>Rock crushes Scissors</li>
+                <li>Scissors cuts Paper</li>
+                <li>Paper covers Rock</li>
                </ul>
         </div>
     </div>
-    <div class="scores_area">
-        <p class="scores">Player score <span id="playerScore">0</span></p>
-        <p class="scores">Computer Score <span id="compScore">0</span></p>
-    </div>
     <div class="game_area_container">
+        <div class="scores_area">
+            <p class="scores">Player score :  <span id="playerScore">0</span></p>
+            <p class="scores">Computer Score :  <span id="compScore">0</span></p>
+        </div>
         <div class="game-area">
-            <button data-type="rock" class="rock_btn">
-                <i class="fa-solid fa-hand-back-fist"></i>
+            <button data-type="rock" class="game_btn">
+                <i class="fa-solid fa-hand-back-fist fa-6x"></i>
             </button>
-            <button data-type="paper" class="paper_btn">
-                <i class="fa-solid fa-hand"></i>
+            <button data-type="paper" class="game_btn">
+                <i class="fa-solid fa-hand fa-6x"></i>
             </button>
-            <button data-type="scissors"class="scissors btn">
-                <i class="fa-solid fa-hand-scissors"></i>
+            <button data-type="scissors"class="game_btn">
+                <i class="fa-solid fa-hand-scissors fa-6x"></i>
          </div>
          <button data-type="submit" class="submit_btn">Fight</button>
     </div>
