@@ -173,6 +173,15 @@ footer {
 }
 
 @media (max-width:570px) {
+
+    .result_txt {
+        padding-bottom: 1rem ;
+    }
+
+    .how_to_play_container {
+        padding: 1rem;
+    }
+
     .game_area_container {
         display: flex;
     }
@@ -223,4 +232,24 @@ footer {
         align-items: center;
     }
 
+}
+
+@media (max-width:425px) {
+    .heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .how_to_play_container {
+        padding: 1rem;
+        text-align: center;
+    }
+}
+
+@media (max-width:380px) {
+    .scores_area > .scores {
+        text-align: center;
+    }
 }
