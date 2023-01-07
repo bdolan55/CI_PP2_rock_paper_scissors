@@ -91,3 +91,87 @@ html,body {
 .submit_btn:hover {
     background-color: red;
 }
+
+footer {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:940px) {
+
+    .scores_area > .scores {
+        padding: 1rem 4rem 0 4rem;
+
+    }
+}
+
+@media (max-width:800px) {
+
+    .scores_area > .scores {
+        text-align: center;
+        padding: 1rem 2rem 0 2rem;
+    }
+
+    .game_btn {
+        display: block;
+        max-height: 5rem;
+        max-width: 5rem;
+    }
+
+
+    .fa-hand-scissors:before {
+        content: "\f257";
+        font-size: 3rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .fa-hand:before {
+        content: "\f256";
+        font-size: 3rem; 
+        display: flex;
+        align-items: center;
+    }
+
+    .fa-hand-back-fist:before, .fa-hand-rock:before {
+        content: "\f255";
+        font-size: 3rem; 
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width:700px) {
+    .game_btn {
+        max-height: 4rem;
+        max-width: 4rem;
+    }
+
+
+    .fa-hand-scissors:before {
+        content: "\f257";
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .fa-hand:before {
+        content: "\f256";
+        font-size: 2rem; 
+        display: flex;
+        align-items: center;
+    }
+
+    .fa-hand-back-fist:before, .fa-hand-rock:before {
+        content: "\f255";
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:700px) {
+    
+}
