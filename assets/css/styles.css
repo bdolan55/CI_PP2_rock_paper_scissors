@@ -1,10 +1,11 @@
 * {
     box-sizing: border-box;
 }
-html,body
-{
+
+html,body {
     background-color: #014f86;
     color: rgb(251, 251, 251);
+    max-height: 90vh;
 }
 
 .heading_container {
@@ -17,33 +18,40 @@ html,body
 
 .heading {
     margin: 2rem 1rem 0 1rem;
+    font-family: 'Barlow', sans-serif;
 }
 
 .how_to_play_container {
     padding: 0rem 6rem 0rem 6rem;
+    font-family: 'Barlow', sans-serif;  
 }
 
 .how_to_play_container > p {
-    text-align: center;
+    text-align: center; 
 }
 
 .scores_area {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
 }
 
 .scores_area > .scores {
+    font-size: 2rem;
     padding: 1rem 6rem 0 6rem;
+    font-family: 'Barlow', sans-serif;
 }
 .game_area_container {
-    background-color: #a9d6e5;
+    background-color: #a9d6e5a0;
     max-width: 70vw;
-    max-height: 50vh;
     margin: auto;
-    padding: auto;
+    margin-bottom: 3rem;
     color: black;
     border-radius: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .game-area {
@@ -54,11 +62,26 @@ html,body
 }
 
 .game_btn {
+    margin: 3rem;
     max-height: 8rem;
     max-width: 8rem;
+    background: none;
+    border: none;
 }
 
-.game_btn > i {
-    
+.game_btn:hover {
+    transform: scale(2);
+    transition: transform .75s;
+}
+.game_area_container > .submit_btn {
+    font-size: x-large;
+    height: 3rem;
+    width: 6rem;
+    border-radius: 10px;
+    margin: 1rem;
+    z-index: 1;
+}
 
+.submit_btn:hover {
+    background-color: red;
 }
