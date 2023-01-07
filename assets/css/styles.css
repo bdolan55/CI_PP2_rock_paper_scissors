@@ -96,6 +96,7 @@ footer {
     display:flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 @media (max-width:940px) {
