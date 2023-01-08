@@ -11,8 +11,17 @@
 
     function gameChoice(playerChoice){
         const chosenCompSelection = compSelection();
-        console.log(chosenCompSelection + "hello");
-        console.log(playerChoice + "Goodbye")
+        if (playerChoice === chosenCompSelection) {
+            console.log("its a Tie");
+          } else if (
+            (playerChoice === 'rock' && chosenCompSelection === 'scissors') ||
+            (playerChoice === 'paper' && chosenCompSelection === 'rock') ||
+            (playerChoice === 'scissors' && chosenCompSelection === 'paper')
+          ) {
+            console.log("Player Wins!!");
+          } else {
+            console.log("Computer Wins!!");
+          }
     }
 
     function compSelection () {
