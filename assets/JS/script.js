@@ -1,3 +1,4 @@
+    const availableSelections = ["rock", "paper", "scissors"];  
     const playerScore = 0;
     const compScore = 0;
     const playerScoreTag = document.getElementById("playerScore");
@@ -13,6 +14,12 @@
     function gameChoice(playerChoice){
         console.log(`My Choice is ${playerChoice}`)
     }
+
+    function compSelection () {
+        const randomCompChoice = Math.floor(Math.random() * availableSelections.length);
+        return availableSelections[randomCompChoice];
+    }
+    console.log(compSelection());
 
     function runGame(){
 
