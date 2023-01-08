@@ -1,5 +1,5 @@
 /**
- * function to wait for the DOM to stop loading 
+ * function to wait for the DOM to finish loading 
  * Added event listeners to show which button was clicked ie. Rock,Paper,Scissors or Fight(submit)
  */
 
@@ -12,11 +12,31 @@ document.addEventListener("DOMContentLoaded", function() {
                 alert("You clicked fight");
             } else {
                 let handChoice = this.getAttribute("data-type");
-                alert(`You clicked ${handChoice}`); 
+                alert(`You clicked ${selectionOptions}`); 
             }
         })
     }
 })
+
+/* available selections noted and what selection beats the other selection */
+
+const selectionOptions = [
+
+    {
+        name: "rock",
+        beats: "scissors"
+    },
+
+    {
+        name: "paper",
+        beats: "rock"
+    },
+
+    {
+        name: "scissors",
+        beats: "paper"
+    }
+]
 
 
 
@@ -28,7 +48,7 @@ function runGame() {
 
 
 
-function playerChoice() {
+function playerChoice() { 
 
 
 }
@@ -40,8 +60,6 @@ function compChoice() {
 
 
 }
-
-
 
 
 function checkResult() {
