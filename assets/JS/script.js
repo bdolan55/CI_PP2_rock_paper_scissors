@@ -1,92 +1,28 @@
-/**
- * function to wait for the DOM to finish loading 
- * Added event listeners to show which button was clicked ie. Rock,Paper,Scissors or Fight(submit)
- */
+    const playerScore = 0;
+    const compScore = 0;
+    const playerScoreTag = document.getElementById("playerScore");
+    const compScoreTag = document.getElementById("compScore");
+    const scoringArea = document.querySelector(".scores-area");
+    const resultOutput = document.querySelector(".result_txt");
+    const rockHand = document.getElementById("rock");
+    const paperHand = document.getElementById("paper");
+    const scissorsHand = document.getElementById("scissors");   
 
-document.addEventListener("DOMContentLoaded", function() {
-    let buttons = document.getElementsByTagName("button");
+    runGame();
 
-    for (let button of buttons) {
-        button.addEventListener("click", function() {
-            if (this.getAttribute("data-type") === "fight") {
-                alert("You clicked fight");
-            } else {
-                let handChoice = this.getAttribute("data-type");
-                alert(`You clicked ${selectionOptions}`); 
-            }
-        })
+    function gameChoice(playerChoice){
+        console.log(`My Choice is ${playerChoice}`)
     }
-})
 
-/* available selections noted and what selection beats the other selection */
+    function runGame(){
 
-const selectionOptions = [
-
-    {
-        name: "rock",
-        beats: "scissors"
-    },
-
-    {
-        name: "paper",
-        beats: "rock"
-    },
-
-    {
-        name: "scissors",
-        beats: "paper"
-    }
-]
-
-
-
-function runGame() {
-
-
-}
-
-
-
-
-function playerChoice() { 
-
-
-}
-
-
-
-
-function compChoice() {
-
-
-}
-
-
-function checkResult() {
-
-
-}
-
-
-
-
-function incPlayerScore() {
-
-
-}
-
-
-
-
-function incCompScore() {
-
-
-}
-
-
-
-
-function gameResult() {
-
-
+            rockHand.addEventListener('click', function() {
+                gameChoice("rock")
+            })
+            paperHand.addEventListener('click', function() {
+                gameChoice("paper")
+            })
+            scissorsHand.addEventListener('click', function() {
+                gameChoice("scissors")
+            })
 }
