@@ -9,17 +9,16 @@
     const paperHand = document.getElementById("paper");
     const scissorsHand = document.getElementById("scissors");   
 
-    runGame();
-
     function gameChoice(playerChoice){
-        console.log(`My Choice is ${playerChoice}`)
+        const chosenCompSelection = compSelection();
+        console.log(chosenCompSelection + "hello");
+        console.log(playerChoice + "Goodbye")
     }
 
     function compSelection () {
         const randomCompChoice = Math.floor(Math.random() * availableSelections.length);
         return availableSelections[randomCompChoice];
     }
-    console.log(compSelection());
 
     function runGame(){
 
@@ -32,4 +31,6 @@
             scissorsHand.addEventListener('click', function() {
                 gameChoice("scissors")
             })
-}
+        }
+
+        runGame("rock");
