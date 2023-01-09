@@ -27,18 +27,20 @@
           } else {
             compWins();
           }
+
     } 
 
     function playerDraw() {
         console.log("Its a Draw");
-        resultOutput.innerHTML = "ITS A DRAW";
+        resultOutput.innerHTML = "ITS A DRAW!!";
     }
 
 
     function playerWins() {
         let oldScore = parseInt(document.getElementById("playerScore").innerText);
         document.getElementById("playerScore").innerText = ++oldScore;
-        resultOutput.innerHTML = "you win winner";
+        resultOutput.innerHTML = "Congratulations!!! Player won this round...";
+        whatScore();
 
     }
 
@@ -46,7 +48,8 @@
     function compWins() {
         let oldScore = parseInt(document.getElementById("compScore").innerText);
         document.getElementById("compScore").innerText = ++oldScore;
-        resultOutput.innerHTML = "you lose loser";
+        resultOutput.innerHTML = "Computer won this Round!!!";
+        whatScore();
     }
 
 
@@ -54,6 +57,15 @@
         const randomCompChoice = Math.floor(Math.random() * availableSelections.length);
         return availableSelections[randomCompChoice];
     }
+
+    function whatScore () {
+        if (playerWins === 5) {
+            alert("GAME OVER -- You Win");
+        } else if (compWins === 5) {
+            alert("GAME OVER -- You Lose");
+        }
+    }
+
 
     function runGame() {
             rockHand.addEventListener('click', function() {
