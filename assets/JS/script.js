@@ -1,3 +1,5 @@
+    document.addEventListener("DOMContentLoaded" , function() {
+
     const availableSelections = ["rock", "paper", "scissors"];  
     const playerScore = 0;
     const compScore = 0;
@@ -7,6 +9,8 @@
     const paperHand = document.getElementById("paper");
     const scissorsHand = document.getElementById("scissors");   
     const letsFight = document.getElementById("fight");
+    const playerHandChoice = document.querySelector("game_btn");
+
 
 
 
@@ -46,12 +50,12 @@
     }
 
 
-    function compSelection () {
+    function compSelection() {
         const randomCompChoice = Math.floor(Math.random() * availableSelections.length);
         return availableSelections[randomCompChoice];
     }
 
-    function runGame(){
+    function runGame() {
             rockHand.addEventListener('click', function() {
                 gameChoice("rock")
             })
@@ -61,6 +65,9 @@
             scissorsHand.addEventListener('click', function() {
                 gameChoice("scissors")
             })
+
         }
 
         runGame();
+
+    });
