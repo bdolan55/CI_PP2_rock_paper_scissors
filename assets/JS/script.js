@@ -1,8 +1,6 @@
     document.addEventListener("DOMContentLoaded" , function() {
 
     const availableSelections = ["rock", "paper", "scissors"];  
-    const playerScore = 0;
-    const compScore = 0;
     const scoringArea = document.querySelector(".scores-area");
     const resultOutput = document.querySelector(".result_txt");
     const rockHand = document.getElementById("rock");
