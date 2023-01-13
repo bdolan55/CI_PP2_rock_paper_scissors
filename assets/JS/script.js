@@ -74,14 +74,14 @@
 
     function runGame() {
             rockHand.addEventListener('click', function() {
-                gameChoice("rock")
-            })
+                gameChoice("rock");
+            });
             paperHand.addEventListener('click', function() {
-                gameChoice("paper")
-            })
+                gameChoice("paper");
+            });
             scissorsHand.addEventListener('click', function() {
-                gameChoice("scissors")
-            })
+                gameChoice("scissors");
+            });
 
         }
 
