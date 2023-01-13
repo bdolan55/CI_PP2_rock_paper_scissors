@@ -66,6 +66,12 @@
         }
     }
 
+    function resetGame(){
+        document.getElementById("compScore").innerText = 0;
+        document.getElementById("playerScore").innerText = 0;
+        resultOutput.innerHTML = "Choose your Fighter!!!!";
+
+    }
 
     function runGame() {
             rockHand.addEventListener('click', function() {
@@ -81,5 +87,7 @@
         }
 
         runGame();
+
+        letsFight.addEventListener('click', resetGame);
 
     });
