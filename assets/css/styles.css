@@ -21,14 +21,15 @@ html,body {
 }
 
 .how_to_play_container {
+    display: none;
+    position: absolute;
     padding: 0rem 6rem 0rem 6rem;
     font-family: 'Barlow', sans-serif;  
     border: 3px solid white;
-    background-color: #a9d6e5a0;
-    max-height: 50vw;
+    background-color: greenyellow;
     max-width: 70vw;
-    margin: auto;
-    margin-bottom: 3rem;
+    margin-top: 40%;
+    margin-bottom: auto;
     color: black;
     border-radius: 3rem;
     display: flex;

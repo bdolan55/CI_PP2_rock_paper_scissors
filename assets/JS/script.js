@@ -12,7 +12,9 @@
     const playerHandChoice = document.querySelector("game_btn");
 
 
-
+    document.querySelector("#close_pop").addEventListener("click", function() {
+        document.querySelector(".how_to_play_container").style.display = "none";
+    });
 
     function gameChoice(playerChoice){
         const chosenCompSelection = compSelection();
