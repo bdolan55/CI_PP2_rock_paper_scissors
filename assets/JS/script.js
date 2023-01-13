@@ -31,7 +31,6 @@
     } 
 
     function playerDraw() {
-        console.log("Its a Draw");
         resultOutput.innerHTML = "ITS A DRAW!!";
     }
 
