@@ -11,6 +11,8 @@
 
     document.querySelector("#close_pop").addEventListener("click", function() {
     document.querySelector(".how_to_play_container").style.display = "none";
+    let name = document.getElementById("player_name").value;
+    document.getElementById("player_screen_name").innerHTML = name + " Score:";
     });
       
     function gameChoice(playerChoice){
