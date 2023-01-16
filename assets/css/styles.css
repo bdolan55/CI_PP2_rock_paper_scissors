@@ -145,6 +145,10 @@ footer {
     box-shadow: 0 0 10px rgb(255, 132, 0);
 }
 
+.disabled-background {
+    opacity: 0.5;
+  }
+
 
 @media (max-width:940px) {
 

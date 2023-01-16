@@ -7,12 +7,16 @@
     const scissorsHand = document.getElementById("scissors");   
     const letsFight = document.getElementById("fight");
 
-
-
+    // window.addEventListener("load", function() {
+    //     document.querySelector(".game_area_container") 
+    //     openPopup();
+    //   });
+      
     document.querySelector("#close_pop").addEventListener("click", function() {
     document.querySelector(".how_to_play_container").style.display = "none";
     let name = document.getElementById("player_name").value;
     document.getElementById("player_screen_name").innerHTML = name + " Score:" + " ";
+    closePopup();
     });
       
     function gameChoice(playerChoice){
@@ -100,6 +104,13 @@
                 gameChoice("scissors");
             });
 
+        }
+
+        function openPopup(){
+            document.body.classList.add("disabled-background");
+        }
+        function closePopup(){
+            document.body.classList.remove("disabled-background");
         }
 
         runGame();
