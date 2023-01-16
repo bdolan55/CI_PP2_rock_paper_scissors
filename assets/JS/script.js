@@ -1,43 +1,49 @@
     document.addEventListener("DOMContentLoaded" , function() {
 
     const availableSelections = ["rock", "paper", "scissors"];  
-    const scoringArea = document.querySelector(".scores-area");
     const resultOutput = document.querySelector(".result_txt");
     const rockHand = document.getElementById("rock");
     const paperHand = document.getElementById("paper");
     const scissorsHand = document.getElementById("scissors");   
     const letsFight = document.getElementById("fight");
-    const playerHandChoice = document.querySelector("game_btn");
 
 
 
     document.querySelector("#close_pop").addEventListener("click", function() {
     document.querySelector(".how_to_play_container").style.display = "none";
     });
-
+      
     function gameChoice(playerChoice){
         const chosenCompSelection = compSelection();
         if (playerChoice === chosenCompSelection) {
             playerDraw();
+            document.getElementById(playerChoice).classList.add("draw-orange");
+            setTimeout(function() { 
+                document.getElementById(playerChoice).classList.remove("draw-orange")
+            },700);
           } else if (
             (playerChoice === 'rock' && chosenCompSelection === 'scissors') ||
             (playerChoice === 'paper' && chosenCompSelection === 'rock') ||
             (playerChoice === 'scissors' && chosenCompSelection === 'paper')
           ) {
             playerWins();
+            document.getElementById(playerChoice).classList.add("winner-green");
+            setTimeout(function() { 
+                document.getElementById(playerChoice).classList.remove("winner-green")
+            },700);
           } else {
             compWins();
+            document.getElementById(playerChoice).classList.add("loser-red");
+            setTimeout(function() { 
+                document.getElementById(playerChoice).classList.remove("loser-red")
+            },700);
           }
 
     } 
 
-    function playerName() {
-            var playerName = document.getElementById("player_screen_name").name;
-            document.getElementById("demo").innerHTML = x;   
-    }
-
     function playerDraw() {
         resultOutput.innerHTML = "ITS A DRAW!!";
+        
     }
 
 
@@ -45,8 +51,6 @@
         let oldScore = parseInt(document.getElementById("playerScore").innerText);
         document.getElementById("playerScore").innerText = ++oldScore;
         resultOutput.innerHTML = "Congratulations!!! Player won this round...";
-        whatScore();
-
     }
 
     
@@ -54,7 +58,6 @@
         let oldScore = parseInt(document.getElementById("compScore").innerText);
         document.getElementById("compScore").innerText = ++oldScore;
         resultOutput.innerHTML = "Computer won this Round!!!";
-        whatScore();
     }
 
 
