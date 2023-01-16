@@ -10,6 +10,7 @@
     const playerHandChoice = document.querySelector("game_btn");
 
 
+
     document.querySelector("#close_pop").addEventListener("click", function() {
     document.querySelector(".how_to_play_container").style.display = "none";
     });
@@ -29,6 +30,10 @@
           }
 
     } 
+
+    function playerName() {
+        document.getElementById("player_screen_name").innerText === document.getElementById("player_name");
+    }
 
     function playerDraw() {
         resultOutput.innerHTML = "ITS A DRAW!!";
