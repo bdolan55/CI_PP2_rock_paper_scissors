@@ -12,7 +12,7 @@
     document.querySelector("#close_pop").addEventListener("click", function() {
     document.querySelector(".how_to_play_container").style.display = "none";
     let name = document.getElementById("player_name").value;
-    document.getElementById("player_screen_name").innerHTML = name + " Score:";
+    document.getElementById("player_screen_name").innerHTML = name + " Score:" + " ";
     });
       
     function gameChoice(playerChoice){
@@ -31,7 +31,7 @@
             playerWins();
             document.getElementById(playerChoice).classList.add("winner-green");
             setTimeout(function() { 
-                document.getElementById(playerChoice).classList.remove("winner-green")
+            document.getElementById(playerChoice).classList.remove("winner-green")
             },700);
           } else {
             compWins();
@@ -40,7 +40,7 @@
                 document.getElementById(playerChoice).classList.remove("loser-red")
             },700);
           }
-
+          whatScore();
     } 
 
     function playerDraw() {
@@ -53,6 +53,7 @@
         let oldScore = parseInt(document.getElementById("playerScore").innerText);
         document.getElementById("playerScore").innerText = ++oldScore;
         resultOutput.innerHTML = "Congratulations!!! Player won this round...";
+        whatScore();
     }
 
     
@@ -68,11 +69,15 @@
         return availableSelections[randomCompChoice];
     }
 
-    function whatScore () {
-        if (playerWins === 5) {
+    function whatScore() {
+        if (document.getElementById("playerScore").innerText == 5) {
             alert("GAME OVER -- You Win");
-        } else if (compWins === 5) {
+            resultOutput.innerHTML = "YOU WIN ___ GAME OVER";
+            resetGame();
+        } else if (document.getElementById("compScore").innerText == 5) {
             alert("GAME OVER -- You Lose");
+            resultOutput.innerHTML = "YOU LOSE ___ GAME OVER";
+            resetGame();
         }
     }
 
@@ -82,6 +87,7 @@
         resultOutput.innerHTML = "Choose your Fighter!!!!";
 
     }
+
 
     function runGame() {
             rockHand.addEventListener('click', function() {
