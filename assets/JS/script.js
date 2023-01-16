@@ -32,7 +32,8 @@
     } 
 
     function playerName() {
-        document.getElementById("player_screen_name").innerText === document.getElementById("player_name");
+            var playerName = document.getElementById("player_screen_name").name;
+            document.getElementById("demo").innerHTML = x;   
     }
 
     function playerDraw() {
