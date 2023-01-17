@@ -273,7 +273,7 @@ The website was tested on the following browsers:
 1. As a first time user, I want to find understand the rules to the Game.
     * On initial loading of the page, The user will be met with a pop up box over the game container. The pop up box show the rules to the game Rock paper Scissors and also show what hand beats what hand so the user will gain the understanding on how to win or lose.
 2. As a first time user, I want to add my name into game to make it a more personal experience.
-    * On initial loading of the page, The user will be met with a pop up box over the game container. This popup box has the rules of the game but also at the bottim it has a text box prompting the user to insert there name and press the fighjt button. The value entered in the text box will be shown within the game container and the name/value will be set beside the players score.
+    * On initial loading of the page, The user will be met with a pop up box over the game container. This popup box has the rules of the game but also at the bottim it has a text box prompting the user to insert there name and press the fight button. The value entered in the text box will be shown within the game container and the name/value will be set beside the players score.
 3. As a first time user, I want to be able to see the current score in the match.
     * Within the game container above the Rock paper Scissors hand gesture emojis there is a scoreboard. The score board shows the player score and the computer score side by side. The game is first to 5 wins.
 4. As a first time user, I want to be notified when I win, lose or draw a hand and a game.
@@ -284,7 +284,10 @@ The website was tested on the following browsers:
 
 #### Returning User
 5. As a returning user, I want a reminder on the game rules.
+    * Similar to the first time the user has visited, The user will be met with a popupbox displaying the rules and what hand gesture win against other hand gestures. 
 6. As a returning user, I want to enjoy the game like the first time I visited ther site.
+    * Rock paper scissors is fun and easy game to play. The website encourages playing with its  
+     User frindly experince and is for people of all ability and ages.The user will be able to navigate the game easily and understand the interface and allow the player to enjoy the game.
 
 #### Site Owner 
 7.  As the site owner, Provide clear details on how to play the game.
