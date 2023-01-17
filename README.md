@@ -97,20 +97,21 @@ The Rock Paper Scissors Game is a simple and fun game. It has been created using
 ## Design
 
 ### Design Choices
-The DND Group website was designed to be clean, informative and easy to work with which represents the work ethic and customer service DND provide. Modern Images have been used on the site to represent the image of high end and modern which DND Group provide as a service.  
+The Rock Paper Scissors game was designed to be clean, user friendly and an enjoyable experienece. Notifications have been added with animations to provide the user a fun game experience and also show the user visually if they have won, lost or drawn. 
 
 ### Colour
-The colors scheme chosen for DND Group site aims to be modern and clean. The grey palette that has been chosen represents that cool and sleek view. I used the Coolors palette website to find the colors used with the website.
+The colors scheme chosen for Rock paper Scissors game is to provide an enjoyable easy on the eye experience. The blue palette that has been chosen because it is know to provide feelings of confidence, trust and tranquility to the visitors to coming to the site to play the game. I used the Coolors palette website to find the colors used with the website.
 <br>
 
-![Colour scheme](./docs/features/coolors_palette_design.png)
+![Colour scheme](./assets/images/color_pallete_image.png)
 
 
 ### Fonts
-The Font chosen for the DND Group Website is from the Google Fonts Poppin Family. The font chosen is the Poppins ExtraLight 200. This was chosen to promote the modern, clean functional look that the DND Group site provides to the user.
+The Font chosen for the Rock Paper Scissors game is from the Google Fonts Barlow Family. The font chosen is the Barlow 700 for Headings and Barlow 200 for text throughout the site.. This was chosen to promote a clean, functional and fun look to the game.
 <br>
 
-![Fonts](./docs/features/poppins_google_font.png)
+![Fonts](./assets/images/barlow%20200%20font%20image.png)
+![Fonts](./assets/images/barlow%20700%20bold%20font%20image.png)
 
 ### Structure
 The website has been presented in a familiar and user friendly way. The navigation through the website would be familiar to any user arriving to the site. Navigation bar is clean and presented along the top of the page with the NavBar being set to sticky for ease so the navbar moves with you as you scroll down the page for easy site navigation. From left to right on Navbar you have DND Group Text to show Owner of site and on the right side shows the headings and links to the other pages within the site. 
