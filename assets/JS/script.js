@@ -49,7 +49,12 @@
     } 
 
     function playerDraw() {
-        resultOutput.innerHTML = "ITS A DRAW!!";
+        document.getElementById("round_status_txt").classList.add("draw-txt-orange");
+        setTimeout(function() { 
+            document.getElementById("round_status_txt").classList.remove("draw-txt-orange")
+            resultOutput.innerHTML = "Choose your Fighter!!!"
+        },1000);
+        resultOutput.innerHTML = "Its a Draw";
         
     }
 
@@ -57,6 +62,11 @@
     function playerWins() {
         let oldScore = parseInt(document.getElementById("playerScore").innerText);
         document.getElementById("playerScore").innerText = ++oldScore;
+        document.getElementById("round_status_txt").classList.add("winner-txt-green");
+        setTimeout(function() { 
+            document.getElementById("round_status_txt").classList.remove("winner-txt-green")
+            resultOutput.innerHTML = "Choose your Fighter!!!"
+        },1000);
         resultOutput.innerHTML = "Congratulations!!! Player won this round...";
         whatScore();
     }
@@ -65,6 +75,11 @@
     function compWins() {
         let oldScore = parseInt(document.getElementById("compScore").innerText);
         document.getElementById("compScore").innerText = ++oldScore;
+        document.getElementById("round_status_txt").classList.add("loser-txt-red");
+        setTimeout(function() { 
+            document.getElementById("round_status_txt").classList.remove("loser-txt-red")
+            resultOutput.innerHTML = "Choose your Fighter!!!"
+        },1000);
         resultOutput.innerHTML = "Computer won this Round!!!";
     }
 

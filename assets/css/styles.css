@@ -146,6 +146,18 @@ footer {
     box-shadow: 0 0 10px rgb(255, 132, 0);
 }
 
+.winner-txt-green {
+    color: greenyellow;
+}
+
+.loser-txt-red {
+    color: red;
+}
+
+.draw-txt-orange {
+    color: orange;
+}
+
 .disabled-background {
     opacity: 0.5;
   }
