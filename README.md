@@ -308,11 +308,11 @@ The website was tested on the following browsers:
 9. As the site owner, Provide a user frindly interface and enjoyable experience.
     * The game is visually striking with the color pallette chosen to highlight and bring forward all buttons and Hand gesture so that the visitor will enjkoy the experience with the game. The website encourages playing with its User friendly experience and is set up for people of all abilities and ages to have fun.
 10. As the site owner, Provide the ability to see the score in the current match.
-* Within the game container above the Rock paper Scissors hand gesture emojis there is a scoreboard. The score board shows the player score and the computer score side by side. The game is first to 5 wins.
+    * Within the game container above the Rock paper Scissors hand gesture emojis there is a scoreboard. The score board shows the player score and the computer score side by side. The game is first to 5 wins.
 11. As the site owner, Provide clear indication on who wins , losses or draw the hand.
-When the player decides and clicks the chosen hand, the hand will glow a color of green for win, Red for lose or Orange for draw. Text above the emjois will also tell player the result of the round and will be coloured the same as the hand gesture with the result.  
+    * When the player decides and clicks the chosen hand, the hand will glow a color of green for win, Red for lose or Orange for draw. Text above the emjois will also tell player the result of the round and will be coloured the same as the hand gesture with the result.  
 12. As the site owner, Provide clear indication on who wins , losses or draw the match.
-The game is first to 5 so when either the player or computer gets to 5 the user will be met with an alert box stating if they have won, lost or drawn and will reset the game to 0-0 when the user presses ok.
+    * The game is first to 5 so when either the player or computer gets to 5 the user will be met with an alert box stating if they have won, lost or drawn and will reset the game to 0-0 when the user presses ok.
 ---
 
 ## Bugs
