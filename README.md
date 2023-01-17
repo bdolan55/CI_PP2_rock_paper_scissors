@@ -45,7 +45,7 @@ The Rock Paper Scissors Game is a simple and fun game. It has been created using
 
 ### User Goals
 - Learn how to play Rock Paper Scissors.
-- Gain an understanding the Rules in this Rock Paper Scissors.
+- Gain an understanding of the Rules in this Rock Paper Scissors game.
 - The ability to choose the gesture and compete against the computer.
 - See the current score inmt he match.
 - Reset the game and start again at any point if I want to.
@@ -73,24 +73,25 @@ The Rock Paper Scissors Game is a simple and fun game. It has been created using
 ### User Stories
 
 #### First-time User 
-1. As a first time user, I want to find out information about DND Group.
-2. As a first time user, I want to be find out information on Company Personnel.
-3. As a first time user, I want to see past project completed, Project size and Images of works.
-4. As a first time user, I want to be able to easily navigate throughout the site and find what information i need easily. 
+1. As a first time user, I want to find understand the rules to the Game.
+2. As a first time user, I want to add my name into game to make it a more personal experience.
+3. As a first time user, I want to be able to see the current score in the match.
+4. As a first time user, I want to be notified when I win, lose or draw a hand and a game.
+5. As a first time user, I want to have the ability to reset game if I want.
+
 
 #### Returning User
-5. As a returning user, I want to see where DND Office is located.
-6. As a returning user, I want to see what types of work DND can provide me a client.
-7. As a returning user, I want to see links to the Organisations social sites.
-8. As a returning user, I want to know how to get in touch with DND Group and Contact details.
+5. As a returning user, I want a reminder on the game rules.
+6. As a returning user, I want to enjoy the game like the first time I visited ther site.
  
 
 #### Site Owner 
-9.  As the site owner, Provide details of what services DND Group provides to the Office fitout Industry.
-10. As the site owner, Provide information on Company Organisational Structure and Employee Profiles.
-11. As the site owner, Provide company Case Studies - Information on Projects completed and Image.
-12. As the site owner, Provide contact details and How to get in touch for further information.
-13. As the site owner, Provide company office location and Map.
+7.  As the site owner, Provide clear details on how to play the game.
+8. As the site owner, Provide the ability to insert your name into the game to make it more interactive the player.
+9. As the site owner, Provide a user frindly interface and enjoyable experience.
+10. As the site owner, Provide the ability to see the score in the current match.
+11. As the site owner, Provide clear indication on who wins , losses or draw the hand.
+12. As the site owner, Provide clear indication on who wins , losses or draw the match.
 ---
 
 ## Design
