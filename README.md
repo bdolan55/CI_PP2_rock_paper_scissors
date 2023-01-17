@@ -252,6 +252,17 @@ The Rock Paper Scissors Game website was tested for performance using Google Lig
 <img src="assets/images/lighthouse-scores.png">
 </details>
 
+<br>
+
+### JSHint
+The Rock Paper Scissors Game website was tested for JavaScript errors using JSHint.The Rock Paper Scissors Game website have passed JSHint testing with no errors recoreded. The settings have been set to JavaScript ES6.
+
+<details><summary>JavaScript Testing</summary>
+<img src="assets/images/jshint_result.png">
+</details>
+
+<br>
+
 ### Performing tests on various devices 
 The website was tested on the following devices:
 - Redmi Note 11 Pro 5G
