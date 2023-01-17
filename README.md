@@ -114,31 +114,21 @@ The Font chosen for the Rock Paper Scissors game is from the Google Fonts Barlow
 ![Fonts](./assets/images/barlow_200_font_image.png)
 
 ### Structure
-The website has been presented in a familiar and user friendly way. The navigation through the website would be familiar to any user arriving to the site. Navigation bar is clean and presented along the top of the page with the NavBar being set to sticky for ease so the navbar moves with you as you scroll down the page for easy site navigation. From left to right on Navbar you have DND Group Text to show Owner of site and on the right side shows the headings and links to the other pages within the site. 
-
-- The homepage has a Main Hero Image with Text on top stating DND Group motto. 
-- The Our Company page has a paragraph promoting on DND Group ethos and images and contact details to managerial staff within DND Group.
-- The Projects page provides images and information regarding jobs DND Group have completed.
-- The contact form provides all details to get in touch with DND Group, Contact form and Map to DND Group office. 
+The website has been presented in a User friendly and easily navigated way. On visting of the site you will be met with a pop up to tell you the rules and ways to win and also a text box for you to enter your name so the player score will be personal to the game player. When you enter the game section of the site, there is a score board to show who is winning the match between you and the computer. The 3 main icons on the page are Emoji hanmd shaped as rock, hand shaped as paper and lastly hand shaped like sciisors. The user chosses from these 3 option there choice of hand they want to use for each round. When the mouse pinter goes over the hands they will hover for effect. When the hand is chosen it will glow red for loser, green for winner and orange if it is a draw and also the text above the emoji hands will change to show result and go the same color as the result. The game is based on a first to five methoid. When either the Player or the Computer get to five wins a pop up will show the winner of the game and reset the scores to 0-0. There is also a reset game button below the emoji to allow the ability to reset the score to 0-0 at any time.
 
 
 ### Wireframes
 
-<details><summary>Home</summary>
-<img src="docs/wireframe/wireframe_home.png">
+<details><summary>Wireframe Desktop Layout</summary>
+<img src="assets/images/wireframe_desktop.png">
 </details>
-<details><summary>Our Company</summary>
-<img src="docs/wireframe/wireframe_our_company.png">
+<details><summary>Wireframe Mobile Layout</summary>
+<img src="assets/images/wireframe_mobile.png">
 </details>
-<details><summary>Our Projects</summary>
-<img src="docs/wireframe/wireframe_our_projects.png">
+<details><summary>Wireframe Tablet Layout</summary>
+<img src="assets/images/wireframe_tablet.png">
 </details>
-<details><summary>Contact Us</summary>
-<img src="docs/wireframe/wireframe_contact.png">
-</details>
-<details><summary>Error 404</summary>
-<img src="docs/wireframe/wireframe_404.png">
-</details>
+
 ---
 
 ## Technologies Used
