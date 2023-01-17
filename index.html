@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Rock Paper Scissors Game">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+     <meta name="author" content="Brian Dolan">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/ecdda7faf4.js" crossorigin="anonymous"></script>
@@ -37,9 +40,9 @@
                 </p>
 
                 <label for="name">Players Name</label>
-                <input id="player_name" type="text">
+                <input id="player_name" type="text" placeholder="Fighters Name Here!!">
 
-                <button id="close_pop" class="pop_btn">Lets Fight!!!</button>
+                <button id="close_pop" class="pop_btn" aria-label="Start Game Button">Lets Fight!!!</button>
         </div>
     </div>
     <div class="game_area_container">
@@ -49,16 +52,16 @@
         </div>
         <h2 class="result_txt">Choose your Fighter!!!!</h2>
         <div class="game-area">
-            <button id="rock" class="game_btn">
+            <button id="rock" class="game_btn" aria-label="Rock Hand Button">
                 <i class="fa-solid fa-hand-back-fist fa-6x" style="color: rgb(249, 191, 66);"></i>
             </button>
-            <button id="paper" class="game_btn" style="color: rgb(249, 191, 66);">
+            <button id="paper" class="game_btn" style="color: rgb(249, 191, 66);" aria-label="Paper Hand Button">
                 <i class="fa-solid fa-hand fa-6x"></i>
             </button>
-            <button id="scissors"class="game_btn" style="color: rgb(249, 191, 66);">
+            <button id="scissors"class="game_btn" style="color: rgb(249, 191, 66);" aria-label="Scissors Hand Button">
                 <i class="fa-solid fa-hand-scissors fa-6x"></i>
          </div>
-         <button id="fight" class="submit_btn">Reset Game!!</button>
+         <button id="fight" class="submit_btn" aria-label="Reset Game Button">Reset Game!!</button>
     </div>
 
     <footer>

@@ -14,6 +14,7 @@
       
     document.querySelector("#close_pop").addEventListener("click", function() {
     document.querySelector(".how_to_play_container").style.display = "none";
+    document.querySelector(".submit_btn").style.display = "block";
     let name = document.getElementById("player_name").value;
     document.getElementById("player_screen_name").innerHTML = name + " Score:" + " ";
     closePopup();

@@ -3,7 +3,7 @@
 }
 
 html,body {
-    background-color: #014f86;
+    background-color: #083251;
     color: rgb(251, 251, 251);
     max-height: 90vh;
 }
@@ -100,6 +100,7 @@ html,body {
     transition: transform .75s;
 }
 .game_area_container > .submit_btn {
+    display: none;
     font-size: x-large;
     height: 3rem;
     width: 15rem;
