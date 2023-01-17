@@ -6,7 +6,6 @@
     const paperHand = document.getElementById("paper");
     const scissorsHand = document.getElementById("scissors");   
     const letsFight = document.getElementById("fight");
-
      
     document.querySelector("#close_pop").addEventListener("click", function() {
     document.querySelector(".how_to_play_container").style.display = "none";
@@ -119,6 +118,10 @@
                 gameChoice("scissors");
             });
 
+        }
+
+        function closePopup(){
+            document.body.classList.remove("disabled-background");
         }
 
         runGame();
