@@ -4,7 +4,7 @@
 ![Mockup image](./assets/images/am_i_responsive.png)
 
 # Rock Paper Scissors Game
-The Rock Paper Scissors Game is a simple and fun game. It has been created using HTML, CSS and JavaScript. The game allows users to choose between rock, paper, or scissors and then compares their choice to the computer's randomly generated choice. The outcome of the game is determined by the rules of the classic game and displayed on the screen. The game also keeps track of the score and Is a first player to 5 game and allows the players to play again and also reset game mid match. The user interface is designed with HTML and CSS, making it easy to understand and navigate. The game logic and functionality is implemented using JavaScript, making the game interactive and dynamic. Overall, the Rock Paper Scissors Game is a great way to pass the time and can be enjoyed by players of all ages.
+The Rock Paper Scissors Game is a simple and fun game. It has been created using HTML, CSS and JavaScript. The game allows users to choose between rock, paper, or scissors and then compares their choice to the computer's randomly generated choice. The outcome of the game is determined by the rules of the classic game and displayed on the screen. The game also keeps track of the score and Is a first player to 5 match but also has the facility that allows the players to play again and also reset game mid match. The user interface is designed with HTML and CSS, making it easy to understand and navigate. The game logic and functionality is implemented using JavaScript, making the game interactive and dynamic. Overall, the Rock Paper Scissors Game is a great way to pass the time and can be enjoyed by players of all ages.
 
 [Live webpage](https://bdolan55.github.io/CI_PP2_rock_paper_scissors/)
 
@@ -44,19 +44,18 @@ The Rock Paper Scissors Game is a simple and fun game. It has been created using
 ## Project Goals 
 
 ### User Goals
-- Learn hwo to play Rock Paper Scissors.
-- See profiles and contact details for all managerial staff.
-- To view portfolio of works completed by DND Group.
-- Find DND Group Social Sites for any new updates on projects.
-- See location and Contact details for DND Group Office.
-- Send message direct from website to DND Group.
+- Learn how to play Rock Paper Scissors.
+- Gain an understanding the Rules in this Rock Paper Scissors.
+- The ability to choose the gesture and compete against the computer.
+- See the current score inmt he match.
+- Reset the game and start again at any point if I want to.
 
 ### Site Owner Goals
-- Promote the business and show online presence for new or existing customers.
-- A place to showcase completed projects by DND Group.
-- Information on Company Organisational Structure, Employee Profiles and Contact details.
-- Company office location and Map.
-- Provide contact details to get in touch with DND Group directly through Contact Us Page.
+- Provide the visiting user a good understanding of the game and rules.
+- Allow to site ability to make there choice fromn the availabe hands.
+- The site visitor playing ther game shoule be able to see the current score in the match easily.
+- Provide the option to play the again if they win or lose.
+- Provide a user friendly enviornment to encourage the visitor to return to play again.
 
 ## User Experience
 
