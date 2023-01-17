@@ -271,10 +271,15 @@ The website was tested on the following browsers:
 
 #### First-time User 
 1. As a first time user, I want to find understand the rules to the Game.
+    * On initial loading of the page, The user will be met with a pop up box over the game container. The pop up box show the rules to the game Rock paper Scissors and also show what hand beats what hand so the user will gain the understanding on how to win or lose.
 2. As a first time user, I want to add my name into game to make it a more personal experience.
+    * On initial loading of the page, The user will be met with a pop up box over the game container. This popup box has the rules of the game but also at the bottim it has a text box prompting the user to insert there name and press the fighjt button. The value entered in the text box will be shown within the game container and the name/value will be set beside the players score.
 3. As a first time user, I want to be able to see the current score in the match.
+    * Within the game container above the Rock paper Scissors hand gesture emojis there is a scoreboard. The score board shows the player score and the computer score side by side. The game is first to 5 wins.
 4. As a first time user, I want to be notified when I win, lose or draw a hand and a game.
+    * When the user is playing the game and deciding on what gesture to pick wether its Rock paper or scissors, The user will see the gestures hover when they put the mouse pointer over it. When the p[layer decides and clicks the chosen hand the hand will glow a color of green for win, Red for lose or Orange for draw. Text above the emjois will also tell player the result of the round and will be coloured the same as the hand gesture with the result. The game is first to 5 so when either the player or computer gets to 5 the user will be met witrh an alert box stating if they have won, lost or drawn and will reset the game to 0-0 when the user presses ok. 
 5. As a first time user, I want to have the ability to reset game if I want. 
+    * Below the hand gestures there is a button that says "reset". This button will return the game to 0-0 when clicked. There is a hover effect on the button and it changes red like a warning to indicate to the player that the game will be over if pressed.
 <br>
 
 #### Returning User
