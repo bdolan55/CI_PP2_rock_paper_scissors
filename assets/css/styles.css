@@ -29,7 +29,6 @@ html,body {
     background-color: greenyellow;
     max-width: 70vw;
     margin-top: 40%;
-    margin-bottom: auto;
     color: black;
     border-radius: 3rem;
     display: flex;
@@ -162,6 +161,17 @@ footer {
     opacity: 0.5;
   }
 
+ @media (max-width:1200px) {
+    .how_to_play_container {
+        margin-top: 45%;
+    }
+ } 
+
+ @media (max-width:1065px) {
+    .how_to_play_container {
+        margin-top: 50%;
+    }
+ } 
 
 @media (max-width:940px) {
 
@@ -169,9 +179,26 @@ footer {
         padding: 1rem 4rem 0 4rem;
 
     }
+    .how_to_play_container {
+        margin-top: 70%;
+    }
+    .how_to_play_container > h1{
+        margin-bottom: 0;
+    }
+    .how_to_play_container > p{
+        margin: 0;
+    }
 }
 
 @media (max-width:800px) {
+
+    .how_to_play_container > h1 {
+        text-align: center;
+    }
+
+    .how_to_play_container {
+        margin-top: 80%;
+    }
 
     .scores_area > .scores {
         text-align: center;
@@ -208,6 +235,12 @@ footer {
 }
 
 @media (max-width:700px) {
+
+    .how_to_play_container {
+        margin-top: 47rem;
+        padding: 0 2rem 0 4rem;
+    }
+
     .game_btn {
         max-height: 4rem;
         max-width: 4rem;
@@ -316,5 +349,25 @@ footer {
 @media (max-width:380px) {
     .scores_area > .scores {
         text-align: center;
+    }
+    
+    .how_to_play_container > .pop_btn {
+        width: 10rem;
+    }
+
+    .game_area_container > .submit_btn {
+        width: 10rem;
+        font-size: medium;
+    }
+}
+
+@media (max-width: 350px) {
+    .how_to_play_container{
+        margin-top: 60rem;
+    }
+}
+@media (max-width: 290px) {
+    .how_to_play_container{
+        margin-top: 70rem;
     }
 }
