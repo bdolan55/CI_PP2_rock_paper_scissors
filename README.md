@@ -60,17 +60,15 @@ The Rock Paper Scissors Game is a simple and fun game. It has been created using
 ## User Experience
 
 ### Target Audience
-- Existing and new customers researching companies to complete Construction works.
-- Engineers and Clients to see past project examples to review suitability for future projects.
-- New clients looking for Construction Fitout works.
-- Existing Clients looking for contact details of Managerial staff within DND Group,
+- This game would be aimed at casual gamers who emjoy a quick and easy game to pass the time.
+- The game is a great way to pass the time, whether waiting in line, on a break, or just looking for something to do.
 
 ### User Requrements and Expectations
 
-- A clean and easy to use website with simple navigation.
-- Information from DND Group is easy to find and access.
-- Easy for existing and new clients to get in contact with DND Group.
-- Examples of previous projects completed by DND Group.
+- The ability to make a selection of rock, paper, or scissors and have it register with the game.
+- The site visitor should be able to see the outcome of the game and understand who has won or lost.
+- Easily keep track of the score and see how many rounds they have won or lost.
+- Ability to redtart the Game easily to 0-0 if required.
 
 ### User Stories
 
