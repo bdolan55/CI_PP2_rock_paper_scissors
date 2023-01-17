@@ -110,8 +110,8 @@ The colors scheme chosen for Rock paper Scissors game is to provide an enjoyable
 The Font chosen for the Rock Paper Scissors game is from the Google Fonts Barlow Family. The font chosen is the Barlow 700 for Headings and Barlow 200 for text throughout the site.. This was chosen to promote a clean, functional and fun look to the game.
 <br>
 
-![Fonts](./assets/images/barlow%20200%20font%20image.png)
-![Fonts](./assets/images/barlow%20700%20bold%20font%20image.png)
+![Fonts](./assets/images/barlow_700_bold_font_image.png)
+![Fonts](./assets/images/barlow_200_font_image.png)
 
 ### Structure
 The website has been presented in a familiar and user friendly way. The navigation through the website would be familiar to any user arriving to the site. Navigation bar is clean and presented along the top of the page with the NavBar being set to sticky for ease so the navbar moves with you as you scroll down the page for easy site navigation. From left to right on Navbar you have DND Group Text to show Owner of site and on the right side shows the headings and links to the other pages within the site. 
