@@ -141,7 +141,6 @@ The website has been presented in a User friendly and easily navigated way. On v
 ### Frameworks & Tools
 - <a href="https://github.com/">Github</a> - Storing the pushed code and Version Control of the website.
 - <a href="https://www.gitpod.io/">Gitpod</a> - Online IDE.
-- <a href="https://getbootstrap.com/">Bootstrap Version 5.2</a> - Carousel Images on Home Page.
 - <a href="https://balsamiq.com/">Balsamiq</a> - Wireframe Software used at start of Project for site layout.
 - <a href="https://fonts.google.com/knowledge">Google Fonts</a> - Used for the fonts within the website. Link within Head of the website
 - <a href="https://fontawesome.com/">Font Awesome</a> - Used for the emojis acting as the Rock, Paper and Scissor hands.
