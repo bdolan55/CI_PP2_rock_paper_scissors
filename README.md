@@ -134,20 +134,18 @@ The website has been presented in a User friendly and easily navigated way. On v
 ## Technologies Used
 
 ### Languages
-- HTML - Used for the Basic Layout of the DND Group Website.
-- CSS - Used for the styling of the DND Group Website.
-- JavaScript - Used for Burger Menu Toggle Button in the smaller screen sizes.
+- HTML - Used for the Basic Layout of the Rock paper and Scissors Game.
+- CSS - Used for the styling of the Rock Paper and Scissors Game.
+- JavaScript - Used for Game functionality and interactivness of the page.
 
 ### Frameworks & Tools
 - <a href="https://github.com/">Github</a> - Storing the pushed code and Version Control of the website.
 - <a href="https://www.gitpod.io/">Gitpod</a> - Online IDE.
 - <a href="https://getbootstrap.com/">Bootstrap Version 5.2</a> - Carousel Images on Home Page.
-- <a href="https://tinypng.com/">Tinypng</a> - Used to Compress the Images for the Website.
 - <a href="https://balsamiq.com/">Balsamiq</a> - Wireframe Software used at start of Project for site layout.
 - <a href="https://fonts.google.com/knowledge">Google Fonts</a> - Used for the fonts within the website. Link within Head of the website
-- <a href="https://fontawesome.com/">Font Awesome</a> - Used for the Socials Tags in footer
+- <a href="https://fontawesome.com/">Font Awesome</a> - Used for the emojis acting as the Rock, Paper and Scissor hands.
 - <a href="https://favicon.io/">Favicon</a> - Used for the Browser tab Logo. Link within head of Website.
-- <a href="https://www.pexels.com/">Pexels</a> - Used to gain images for website.
 - <a href="https://coolors.co/">Coolors</a> - Color palettes used on website.
 
 
@@ -223,73 +221,36 @@ The page consists of Four pages and eight site features.
 
 ### HTML Validation
 
-The DND Group website was tested using W3C Markup Validation to validate the HTML code from the website. All the pages have passed with no errors or no warnings.
-<details><summary>Home</summary>
-<img src="docs/w3_html/w3_index_validation.PNG">
+The Rock Paper Scissors game website was tested using W3C Markup Validation to validate the HTML code from the website. The page has passed with no errors or no warnings.
+<details><summary>Home Page</summary>
+<img src="assets/images/html_validator_result.png">
 </details>
-<details><summary>Our Company</summary>
-<img src="docs/w3_html/w3_our_company_validation.PNG">
-</details>
-<details><summary>Our Projects</summary>
-<img src="docs/w3_html/w3_our_projects_validation.PNG">
-</details>
-<details><summary>Contact Us</summary>
-<img src="docs/w3_html/w3_contact_us_validation.PNG">
-</details>
-<details><summary>Error 404</summary>
-<img src="docs/w3_html/w3_html_404.png">
-</details>
+
 
 <br>
 
 ### CSS Validation
-The DND Group website was tested using W3C Jigsaw CSS Validator to validate the CSS code within the website. Parse Errors occured when validating the page with the site link as the W3C Jigsaw CSS Validators showed the issue to be linked with Bootstrap version 5.2. To ensure the CSS would pass the CSS code was pasted direct into the W3C Jigsaw CSS Validator and showed no errors recorded.
-<details><summary>whole page</summary>
-<img src="docs/w3_css/w3_css_validation_error.PNG">
+The Rock Paper Scissors Game website was tested using W3C Jigsaw CSS Validator to validate the CSS code within the website. The Rock Paper Scissors Game CSS passed the W3C Jigsaw CSS Validator and showed no errors recorded.
+<details><summary>Home Page</summary>
+<img src="assets/images/css_validator_result.png">
 </details>
-<details><summary>style.css</summary>
-<img src="docs/w3_css/w3_css_validation_pass.PNG">
-</details>
+
 
 <br>
 
 ### Accessibility
-The DND Group website was tested using WAVE WebAIM accessibility tool to ensure the website shows no accessibility errors. All pages within the website have passed accesibility testing with no errors recoreded.
+The Rock Paper Scissors Game website was tested using WAVE WebAIM accessibility tool to ensure the website shows no accessibility errors. The Rock Paper Scissors Game website have passed accesibility testing with no errors recoreded.
 <details><summary>Home</summary>
-<img src="docs/Wave/wave_home.png">
-</details>
-<details><summary>Our Company</summary>
-<img src="docs/Wave/wave_our_company.png">
-</details>
-<details><summary>Our Projects</summary>
-<img src="docs/Wave/wave_our_projects.png">
-</details>
-<details><summary>Contact Us</summary>
-<img src="docs/Wave/wave_contact_us.png">
-</details>
-<details><summary>Error 404</summary>
-<img src="docs/Wave/wave_404.png">
+<img src="assets/images/wave_report_result.png">
 </details>
 
 <br>
 
 ### Performance 
-The DND Group website was tested for performance using Google Lighthouse within Google Chrome Developer Tools.
+The Rock Paper Scissors Game website was tested for performance using Google Lighthouse within Google Chrome Developer Tools. The Rock Paper Scissors Game website has passed with 100% in all 4 areas.
 
 <details><summary>Home</summary>
-<img src="docs/lighthouse/lighthouse_perf_home.png">
-</details>
-<details><summary>Our Company</summary>
-<img src="docs/lighthouse/lighthouse_perf_our_company.png">
-</details>
-<details><summary>Our Projects</summary>
-<img src="docs/lighthouse/lighthouse_perf_our_projects.png">
-</details>
-<details><summary>Contact Us</summary>
-<img src="docs/lighthouse/lighthouse_perf_contact.png">
-</details>
-<details><summary>Error 404</summary>
-<img src="docs/lighthouse/lighthouse_perf_404.png">
+<img src="assets/images/lighthouse-scores.png">
 </details>
 
 ### Performing tests on various devices 
