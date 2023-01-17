@@ -4,7 +4,7 @@
 ![Mockup image](./assets/images/am_i_responsive.png)
 
 # Rock Paper Scissors Game
-    The Rock Paper Scissors Game is a simple and fun game. It has been created using HTML, CSS and JavaScript. The game allows users to choose between rock, paper, or scissors and then compares their choice to the computer's randomly generated choice. The outcome of the game is determined by the rules of the classic game and displayed on the screen. The game also keeps track of the score and Is a first player to 5 game and allows the players to play again and also reset game mid match. The user interface is designed with HTML and CSS, making it easy to understand and navigate. The game logic and functionality is implemented using JavaScript, making the game interactive and dynamic. Overall, the Rock Paper Scissors Game is a great way to pass the time and can be enjoyed by players of all ages.
+The Rock Paper Scissors Game is a simple and fun game. It has been created using HTML, CSS and JavaScript. The game allows users to choose between rock, paper, or scissors and then compares their choice to the computer's randomly generated choice. The outcome of the game is determined by the rules of the classic game and displayed on the screen. The game also keeps track of the score and Is a first player to 5 game and allows the players to play again and also reset game mid match. The user interface is designed with HTML and CSS, making it easy to understand and navigate. The game logic and functionality is implemented using JavaScript, making the game interactive and dynamic. Overall, the Rock Paper Scissors Game is a great way to pass the time and can be enjoyed by players of all ages.
 
 [Live webpage](https://bdolan55.github.io/CI_PP2_rock_paper_scissors/)
 
