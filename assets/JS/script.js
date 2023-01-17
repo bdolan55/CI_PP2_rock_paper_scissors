@@ -7,11 +7,7 @@
     const scissorsHand = document.getElementById("scissors");   
     const letsFight = document.getElementById("fight");
 
-    // window.addEventListener("load", function() {
-    //     document.querySelector(".game_area_container") 
-    //     openPopup();
-    //   });
-      
+     
     document.querySelector("#close_pop").addEventListener("click", function() {
     document.querySelector(".how_to_play_container").style.display = "none";
     document.querySelector(".submit_btn").style.display = "block";
@@ -19,6 +15,9 @@
     document.getElementById("player_screen_name").innerHTML = name + " Score:" + " ";
     closePopup();
     });
+
+
+    document.getElementById("player_name").focus();
       
     function gameChoice(playerChoice){
         const chosenCompSelection = compSelection();
@@ -26,7 +25,7 @@
             playerDraw();
             document.getElementById(playerChoice).classList.add("draw-orange");
             setTimeout(function() { 
-                document.getElementById(playerChoice).classList.remove("draw-orange")
+                document.getElementById(playerChoice).classList.remove("draw-orange");
             },700);
           } else if (
             (playerChoice === 'rock' && chosenCompSelection === 'scissors') ||
@@ -36,13 +35,13 @@
             playerWins();
             document.getElementById(playerChoice).classList.add("winner-green");
             setTimeout(function() { 
-            document.getElementById(playerChoice).classList.remove("winner-green")
+            document.getElementById(playerChoice).classList.remove("winner-green");
             },700);
           } else {
             compWins();
             document.getElementById(playerChoice).classList.add("loser-red");
             setTimeout(function() { 
-                document.getElementById(playerChoice).classList.remove("loser-red")
+                document.getElementById(playerChoice).classList.remove("loser-red");
             },700);
           }
           whatScore();
@@ -51,8 +50,8 @@
     function playerDraw() {
         document.getElementById("round_status_txt").classList.add("draw-txt-orange");
         setTimeout(function() { 
-            document.getElementById("round_status_txt").classList.remove("draw-txt-orange")
-            resultOutput.innerHTML = "Choose your Fighter!!!"
+            document.getElementById("round_status_txt").classList.remove("draw-txt-orange");
+            resultOutput.innerHTML = "Choose your Fighter!!!";
         },1000);
         resultOutput.innerHTML = "Its a Draw";
         
@@ -64,8 +63,8 @@
         document.getElementById("playerScore").innerText = ++oldScore;
         document.getElementById("round_status_txt").classList.add("winner-txt-green");
         setTimeout(function() { 
-            document.getElementById("round_status_txt").classList.remove("winner-txt-green")
-            resultOutput.innerHTML = "Choose your Fighter!!!"
+            document.getElementById("round_status_txt").classList.remove("winner-txt-green");
+            resultOutput.innerHTML = "Choose your Fighter!!!";
         },1000);
         resultOutput.innerHTML = "Congratulations!!! Player won this round...";
         whatScore();
@@ -77,8 +76,8 @@
         document.getElementById("compScore").innerText = ++oldScore;
         document.getElementById("round_status_txt").classList.add("loser-txt-red");
         setTimeout(function() { 
-            document.getElementById("round_status_txt").classList.remove("loser-txt-red")
-            resultOutput.innerHTML = "Choose your Fighter!!!"
+            document.getElementById("round_status_txt").classList.remove("loser-txt-red");
+            resultOutput.innerHTML = "Choose your Fighter!!!";
         },1000);
         resultOutput.innerHTML = "Computer won this Round!!!";
     }
@@ -120,13 +119,6 @@
                 gameChoice("scissors");
             });
 
-        }
-
-        function openPopup(){
-            document.body.classList.add("disabled-background");
-        }
-        function closePopup(){
-            document.body.classList.remove("disabled-background");
         }
 
         runGame();
