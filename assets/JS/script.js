@@ -1,5 +1,7 @@
     /* This Event listener is there to wait for the page to 
-    load and the will run then function for the code on the page*/
+    load and the will run then function for the code on the page.
+    Taken and adapted from Code Insitute Love Maths Project. See 
+    README for more details.*/
     document.addEventListener("DOMContentLoaded" , function() {
 
 
@@ -20,7 +22,8 @@
     Display:Block.
     * The Value entered in the textbox area for player name will be added into the game 
     container area in the scores section.
-    * The closePopup function will run also to remove the disabled background class
+    * The closePopup function will run also to remove the disabled background class.
+    * Adapted from Six Minutes smarter and Coding Artist tutorial. See README for more details.
     **/        
     document.querySelector("#close_pop").addEventListener("click", function() {
     document.querySelector(".how_to_play_container").style.display = "none";
@@ -51,6 +54,7 @@
      * If the result is a draw , win or lose it will run the corresponding function and also the 
      methods / tasks within the statement.
      * The whatScore function will run when either the player or computer reaches 5 wins.
+     * Adapted from Free Code Camp tutorial. See README for more details.
     **/  
       
     function gameChoice(playerChoice){
