@@ -357,12 +357,12 @@ You can clone the repository by following these steps:
 In order of appearance:
 - <a href="https://www.youtube.com/watch?v=jaVNP3nIAv0">Free Code Camp</a> was used to understand Rock Paper Scissors Javascript formation and how to structure the code and functions to achioeve the end result. Inspiration was also taken in sections of the page for design of my Rock Paper Scissors game.
 - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction">MDN Web Docs</a> to assist in correct formation of functions and event listeners.
-- <a href="https://github.com/4n4ru/CI_MS1_BodelschwingherHof"> Ana ( github = 4n4ru )</a> to assist with structure and expectation required for a Github README section. 
 - <a href="https://www.w3schools.com">W3 Schools</a> was used to assist me in small programming methods I had throughout the entire Project. 
 - <a href="https://www.youtube.com/watch?v=sEJB7FtBoug&t=2s">Coding Artist</a> video was used to assist on the ability to Get a PopUp page to appear automatically on loading of the page. 
 - <a href="https://www.youtube.com/watch?v=aEj0Wu33hJM">Six Minutes Smarter</a> video was used to assist on the ability to take the value from my textbox on the PopUp to display within the game area container. This was to allow the user to insert there name within the game and it to be displayed beside there score in the scoring area. 
 - <a href="https://www.w3schools.com/tags/tag_meta.asp">W3 Schools</a> Meta Tag information on how to improve the web page SEO.
 - <a href="https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopmentecomm">Code Institute</a> Software development course was used to assist me in small programming methods I had throughout the entire Project through the well taught and informative Tutorials. I also used the Love Maths tutorials to learn how to use the DOMCONTENTLOADED function and the focus Function to allow the text box on the PopUp to be automatically ready to enetr the Player Name Text.
+- <a href="https://github.com/4n4ru/CI_MS1_BodelschwingherHof"> Ana ( github = 4n4ru )</a> to assist with structure and expectation required for a Github README section. 
 
 ## Acknowledgment
 
