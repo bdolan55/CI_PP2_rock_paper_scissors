@@ -36,7 +36,7 @@ The Rock Paper Scissors Game is a simple and fun game. It has been created using
     5. [Performing tests on various devices](#performing-tests-on-various-devices)
     6. [Browser compatibility](#browser-compatability)
     7. [Testing User Goals](#testing-user-goals)
-8. [Bugs](#Bugs and Future Works)
+8. [Bugs](#Bugs-and-Future-Works)
 9. [Deployment](#deployment)
 10. [Credits](#credits)
 11. [Acknowledgement](#acknowledgement)
