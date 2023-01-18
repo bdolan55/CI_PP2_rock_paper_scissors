@@ -4,7 +4,6 @@
     README for more details.*/
     document.addEventListener("DOMContentLoaded" , function() {
 
-
     /* This is a list of all the variables that are available to use throughout the 
     Javascript code*/
     const availableSelections = ["rock", "paper", "scissors"];  
@@ -208,6 +207,10 @@
         function closePopup(){
             document.body.classList.remove("disabled-background");
         }
+
+    /**
+     * The code below is the function states to run the Game.
+    **/
 
         runGame();
 
