@@ -1,12 +1,27 @@
+    /* This Event listener is there to wait for the page to 
+    load and the will run a function for the coad on the page*/
     document.addEventListener("DOMContentLoaded" , function() {
 
+
+    /* This is a list of all the variables that are available to use throughout the 
+    Javascript code*/
     const availableSelections = ["rock", "paper", "scissors"];  
     const resultOutput = document.querySelector(".result_txt");
     const rockHand = document.getElementById("rock");
     const paperHand = document.getElementById("paper");
     const scissorsHand = document.getElementById("scissors");   
     const letsFight = document.getElementById("fight");
-     
+
+    /**
+    * The code below is run when by using an eventlistener on the "Lets Fight" button. 
+    When the button is clicked it will change the how to play page into a display:none state 
+    so it will dissappear.
+    * The submit Button on the game container will change from its display:none state to 
+    Display:Block.
+    * The Value entered in the textbox area for player name will be added into the game 
+    container area in the scores section.
+    * The closePopup function will run also to remove the disabled background class
+    **/        
     document.querySelector("#close_pop").addEventListener("click", function() {
     document.querySelector(".how_to_play_container").style.display = "none";
     document.querySelector(".submit_btn").style.display = "block";
@@ -15,8 +30,21 @@
     closePopup();
     });
 
+    /**
+    * The below will run the .focus function so when the popup appears on page load the textbox 
+    will be ready for the player to enter there name.
+    **/
 
     document.getElementById("player_name").focus();
+
+    /**
+     * The code below is the method function on how the game works.
+     * When the the player chooses and hand it runs a "if, else if" statement
+     * This statement compares the conditions on what outcome shall be taken wether it is True or False.
+     * If the result is a draw , win or lose it will run the corresponding function and also the 
+     methods / tasks within the statement.
+     * The whatScore function will run when either the player or computer reaches 5 wins.
+    **/  
       
     function gameChoice(playerChoice){
         const chosenCompSelection = compSelection();
@@ -46,6 +74,13 @@
           whatScore();
     } 
 
+    /**
+     * The code below is the function that will run when a player and computer draws a round.
+     * It will change the hand result text and color to Orange and the timeout function 
+    will execute. 
+     * After 1 second the function will timeout and return to default text and color.
+    **/
+
     function playerDraw() {
         document.getElementById("round_status_txt").classList.add("draw-txt-orange");
         setTimeout(function() { 
@@ -56,6 +91,12 @@
         
     }
 
+        /**
+     * The code below is the function that will run when the player wins the round.
+     * It will change the result text and color to Green and the timeout function 
+    will execute. 
+    * After 1 second the function will timeout and return to default text and color.
+    **/
 
     function playerWins() {
         let oldScore = parseInt(document.getElementById("playerScore").innerText);
