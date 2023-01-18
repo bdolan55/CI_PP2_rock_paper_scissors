@@ -189,36 +189,14 @@ The website consists of a main home page hosting the Rock Paper Scissors game an
 - User Stories Covered: 5, 9 and 13.
 
 
-![Our Company Employee Profiles](/assets/images/reset_btn.png)
+![Game Reset](/assets/images/reset_btn.png)
 
-### Footer
-- The footer is a feature that continues through all 4no. pages on the website.
-- The footer contains the company address, Phone no, Email and Links to DND Group Socials.
-- User Stories Covered: 7 , 8 , 12.
+### Game Over PopUp
+- When a game is complete and either the Player or the computer reaches 5 first a PopUp box alert come on the screen to notify the player of the result.
+- When the OK button is clicked on the PopUp alert box it resets the game to 0-0 and allows the player to play the game again.
+- User Stories Covered: 4 , 9  and 12.
 
-![Footer](/docs/features/footer_section.png)
-
-### our Projects
-- Example Images of projects completed by DND Group.
-- Hover Effect on project images when pointer lands on image to show Project Type, Size and Timescale of that paticular project.
-- User Stories Covered: 3 , 6 , 9, 11.
-
-![Our Projects](/docs/features/projects_section_imgs.png)
-
-### Contact Form
-- The Contact Us section Shows the company details to the left of a clean minimalistic contact form and message box on the right side of the screen.
-- The Contact form has a "Send Message" button with Hover effect to an orange colour for effect.
-- The Form is linked to code institute form dump to show contact form details entered and sent.
-- User Stories Covered: 1 , 8 , 12.
-
-![Reach Out to Us](/docs/features/reach_out_to_us.png)
-![Contact Form](/docs/features/contact_form.png)
-
-### Map
-- The embedded Google Map is located below the Contact form section and takes up width of screen view.
-- User Stories Covered: 13 , 5.
-
-![Map](/docs/features/map_img.png)
+![Game Over PopUp](/assets/images/game_over_popup.png)
 
 ---
 
