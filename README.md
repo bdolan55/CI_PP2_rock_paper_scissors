@@ -157,7 +157,7 @@ The website consists of a main home page hosting the Rock Paper Scissors game an
 - The Popup box has a enter name textbox at the bottom to allow for the site visitor to enter there name so the value of this textbox will be entered in the game area at the player score section.
 - The Popup box has a enter name textbox at the bottom and has an focus event set. This allows the user the ability to type straight into the textbox area without having to click into the textbox. 
 - The "Lets Fight" button located at the bottom of the page is linked with a function as to when the user enters there name and clicks it the Popup box will dissappear and the event listener click on the button runs the game function for the user to play.
-- The Popup box is responsive to screen sizes to assist with playing on different devices.
+- The Popup box is responsive to different screen sizes to assist with playing on different devices.
 - User Stories Covered: 1, 2, 5, 7, 8 and 9
 
 
@@ -166,16 +166,20 @@ The website consists of a main home page hosting the Rock Paper Scissors game an
 ### Scoring Area
 - The scoring area player name is entered from the Popup box on first page load. This box allows the scoring section to display the "players name" Score.
 - The scoring area displays the current score of each hand from both the Player and the Computer. The scores increment after every hand to show the current game score on the race to first to 5 wins.
+- The Scoring Area is responsive to different screen sizes to assist with playing on different devices.
+- User Stories Covered: 3, 10 and 11
 
 
 ![Scoring Area](/assets/images/scoring_area.png)
 
-### Our Company Ethos
-- The Our Company section shows a block of text for viewers to gain better understanding of what DND Group can provide.
-- Image on right side of text to promote the type of work and standard DND Group provide
-- User Stories Covered: 1
+### Game Area
+- The game areas Rock Paper and Scissors Hand Emojis have a hover effect when the mouse is over it to show which hand you may select.
+- Above the Rock Paper Sciccors Hand Emojis there is text to show you the result of the hand just played. The text color changes with the result of the round. Green for Win, Red for loss and Orange for Draw.
+- The game areas Rock Paper and Scissors Hand Emojis have an result color glow when clicked to show the round result. Green for Win, Red for loss and Orange for Draw.
+- The Scoring Area is responsive to different screen sizes to assist with playing on different devices.
+- User Stories Covered: 4, 9 and 11
 
-![Our Company Ethos](/docs/features/our_company_ethos.png)
+![Game Area](/assets/images/hovering_hand_win.png)
 
 ### Our Company Employee Profiles
 - Clean Professional profile Images of Managerial Staff within DND Group.
