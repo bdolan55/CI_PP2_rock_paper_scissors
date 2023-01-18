@@ -37,8 +37,6 @@ html,body {
     align-items: center;
     flex-direction: column;
     z-index: 2;
-    
-
 }
 
 .how_to_play_container > p {
@@ -58,8 +56,6 @@ html,body {
     font-family: 'Barlow', sans-serif;
 }
 
-
-
 .game_area_container {
     background-color: #a9d6e5a0;
     max-width: 70vw;
@@ -78,12 +74,12 @@ html,body {
     justify-content: space-evenly;
     padding: 2rem 2rem 2rem 2rem;
 }
+
 .result_txt {
     font-family: 'Barlow', sans-serif;
     margin: 0;
     color: white;
 }
-
 
 .game_btn {
     margin: 3rem;
@@ -180,7 +176,6 @@ footer {
  } 
 
 @media (max-width:940px) {
-
     .scores_area > .scores {
         padding: 1rem 4rem 0 4rem;
 
@@ -217,7 +212,6 @@ footer {
         max-width: 5rem;
     }
 
-
     .fa-hand-scissors:before {
         content: "\f257";
         font-size: 3rem;
@@ -241,7 +235,6 @@ footer {
 }
 
 @media (max-width:700px) {
-
     .how_to_play_container {
         margin-top: 47rem;
         padding: 0 2rem 0 4rem;
@@ -252,7 +245,6 @@ footer {
         max-width: 4rem;
         margin: 1.8rem 3rem 1.8rem 3rem;
     }
-
 
     .fa-hand-scissors:before {
         content: "\f257";
@@ -274,11 +266,9 @@ footer {
         display: flex;
         align-items: center;
     }
-
 }
 
 @media (max-width:570px) {
-
     .result_txt {
         padding-bottom: 1rem ;
     }
@@ -316,6 +306,7 @@ footer {
         max-height: 6rem;
         max-width: 6rem;
     }
+
     .fa-hand-scissors:before {
         content: "\f257";
         font-size: 4rem;
@@ -336,7 +327,6 @@ footer {
         display: flex;
         align-items: center;
     }
-
 }
 
 @media (max-width:425px) {
