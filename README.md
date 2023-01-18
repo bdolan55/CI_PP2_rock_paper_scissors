@@ -236,6 +236,9 @@ The Rock Paper Scissors Game website was tested for performance using Google Lig
 <details><summary>Home</summary>
 <img src="assets/images/lighthouse-scores.png">
 </details>
+<details><summary>Mobile Version</summary>
+<img src="assets/images/lighthouse_score_mobile.png">
+</details>
 
 <br>
 
