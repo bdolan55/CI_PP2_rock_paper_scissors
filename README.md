@@ -157,17 +157,18 @@ The website consists of a main home page hosting the Rock Paper Scissors game an
 - The Popup box has a enter name textbox at the bottom to allow for the site visitor to enter there name so the value of this textbox will be entered in the game area at the player score section.
 - The Popup box has a enter name textbox at the bottom and has an focus event set. This allows the user the ability to type straight into the textbox area without having to click into the textbox. 
 - The "Lets Fight" button located at the bottom of the page is linked with a function as to when the user enters there name and clicks it the Popup box will dissappear and the event listener click on the button runs the game function for the user to play.
+- The Popup box is responsive to screen sizes to assist with playing on different devices.
 - User Stories Covered: 1, 2, 5, 7, 8 and 9
 
 
-![Logo and navbar](/assets/images/onload_popup.png)
+![Popup Box](/assets/images/onload_popup.png)
 
-### Carousel
-- The 3no. Carousel Images are to promote clean / stylish look and emphasise on Lighting effects.
-- Text positioned on top of Carousel Images promoting DND motto.
-- The Carousel contains 3no Images that can be scrolled with the use of pointer arrows buttons on both the left and right hand side of image. 
+### Scoring Area
+- The scoring area player name is entered from the Popup box on first page load. This box allows the scoring section to display the "players name" Score.
+- The scoring area displays the current score of each hand from both the Player and the Computer. The scores increment after every hand to show the current game score on the race to first to 5 wins.
 
-![Carousel](/docs/features/Hero_img_carousel.png)
+
+![Scoring Area](/assets/images/scoring_area.png)
 
 ### Our Company Ethos
 - The Our Company section shows a block of text for viewers to gain better understanding of what DND Group can provide.
