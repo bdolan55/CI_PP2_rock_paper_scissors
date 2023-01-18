@@ -313,7 +313,9 @@ The website was tested on the following browsers:
 
 - I had an bug on the function to end the match when either the player or the compuiter reaches 5 wins. I had function set to when player or computer === 5 run alert message and reset game. I changed the the result to >= 5 and this allowed the game to run to 6 rounds which still was incoreect. After some time I started researching on <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators">MDN Web docs</a> for a solution. I found that the "===" operator I was using was incorrect and should be "==". When the function was altered all worked as expected.
 
-- There is a issue with the text on the Our company page when it goes in to responsive mode for smaller media devices. Text becomes a bit more spaced out between words.
+- In a future update I would like the pop up "Game Over" alert to be customised to a Popup to suit the site allow for continuity througout.
+
+- In a future update I would like to add sounds effects to the Rock Paper and Scissors button presses so that each hand has a sound effect of a punch like in a fighter type game. Also when the game is over and either the player or Computer wins the sound effect would play with the noise of a cheering crowd.
 
 ---
 
