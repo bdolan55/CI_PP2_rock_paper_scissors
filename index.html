@@ -2,22 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!--Meta Tag added for better site SEO and describe what page is about-->
     <meta name="description" content="Rock Paper Scissors Game">
     <meta name="keywords" content="HTML, CSS, JavaScript">
      <meta name="author" content="Brian Dolan">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font Awesome link for the Emojis used as Rock Paper and Scissors-->
     <script src="https://kit.fontawesome.com/ecdda7faf4.js" crossorigin="anonymous"></script>
+    <!--Google Fonts link for the fonts used on the page-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;700&display=swap" rel="stylesheet">
+    <!--Favicon Link for the image used in the Window Tab-->
     <link rel="icon" href="assets/images/favicon.ico">
+    <!--Link to Website CSS Page style.css-->
     <link rel="stylesheet" href="assets/css/styles.css">
+    <!--Page Title-->
     <title>Rock Paper Scissors ¦ Home</title>
 </head>
 <body> 
     <div class="heading_container">
         <h1 class="heading"> Rock Paper Scissors Game </h1>
+        <!--Container used for the PopUp on page load. Will not appear when "lets Fight" button is clicked-->
         <div class="how_to_play_container">
                 <h1>Rock Paper Scissors Game</h1>
                 <br>
@@ -44,6 +51,7 @@
                 <button id="close_pop" class="pop_btn" aria-label="Start Game Button">Lets Fight!!!</button>
         </div>
     </div>
+    <!--Container holding the HTML structure and layout for the Game Controls-->
     <div class="game_area_container">
         <div class="scores_area">
             <p class="scores"><span id="player_screen_name"></span><span id="playerScore">0</span></p>
@@ -63,14 +71,10 @@
          </div>
          <button id="fight" class="submit_btn" aria-label="Reset Game Button">Reset Game!!</button>
     </div>
-        
-
     <footer>
         <h3>Created by Brian Dolan - PP2 Code Institute</h3>
-    </footer>
-
-    
-
+    </footer>    
+<!--Link to JavaScrpit page script.js-->
  <script src="assets/JS/script.js"></script>   
 </body>
 </html>
