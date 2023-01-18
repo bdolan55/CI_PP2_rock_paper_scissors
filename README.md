@@ -313,6 +313,8 @@ The website was tested on the following browsers:
 
 - I had an bug on the function to end the match when either the player or the compuiter reaches 5 wins. I had function set to when player or computer === 5 run alert message and reset game. I changed the the result to >= 5 and this allowed the game to run to 6 rounds which still was incoreect. After some time I started researching on <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators">MDN Web docs</a> for a solution. I found that the "===" operator I was using was incorrect and should be "==". When the function was altered all worked as expected.
 
+- When completing the Chrome developer Lighthouse testing. I was recieveing a low score in the SEO section. After reading the results causes in the Lighthouse Testing report it stated to include more details within the head of the HTML page giving description of what the page was for. I used <a href="https://www.w3schools.com/tags/tag_meta.asp">W3 Schools</a> Meta Tag information on how to improve this which in turn brought my score on the SEO up to acceptable level.
+
 - In a future update I would like the pop up "Game Over" alert to be customised to a Popup to suit the site allow for continuity througout.
 
 - In a future update I would like to add sounds effects to the Rock Paper and Scissors button presses so that each hand has a sound effect of a punch like in a fighter type game. Also when the game is over and either the player or Computer wins the sound effect would play with the noise of a cheering crowd.
@@ -349,40 +351,18 @@ You can clone the repository by following these steps:
 
 ## Credits
 
-
-### Media
-In order of apearance:
-- [samuel_beckett_bridge](/assets/Images/web_img_opt/sam_beckett_main.jpg): Photo by <a href="https://www.pexels.com/@lucianphotography/">Luciann Photography</a> on <a href="https://www.pexels.com/">Pexels</a>
-- [Outside builing lighting globes](/assets/Images/web_img_opt/outdoor_lights_globes.jpg): Photo by <a href="https://www.pexels.com/@flo-dnd-989753/">Flo DND</a> on <a href="https://www.pexels.com/">Pexels</a>
-- [Modern Stairwell](/assets/Images/web_img_opt/stairs_lights_main.jpg): Photo by <a href="https://www.pexels.com/@braydenlaw/">Brayden Law</a> on <a href="https://www.pexels.com/">Pexels</a>
-- [Picture of building tops and Bridge](/assets/Images/dublin_building_tops.jpg): Photo by <a href="https://www.pexels.com/@lucianphotography/">Luciann Photography</a> on <a href="https://www.pexels.com/">Pexels</a>
-- [Picture of Damian](/assets/Images/web_img_opt/damian_profile.jpg): Photo by <a href="https://www.pexels.com/@yankrukov/">Yan Krukov</a> on <a href="https://www.pexels.com/">Pexels</a>
-- [Picture of Ray](/assets/Images/web_img_opt/ray_profile.jpg): Photo by <a href="https://www.pexels.com/@tima-miroshnichenko/">Tima Miroshnichenko</a> on <a href="https://www.pexels.com/">Pexels</a>
-- [Picture of Holly](/assets/Images/web_img_opt/holly_profile.jpg): Photo by <a href="https://www.pexels.com/@thisisengineering/">ThisIsEngineering</a> on <a href="https://www.pexels.com/">Pexels</a>
-- [Picture of Brian](/assets/Images/web_img_opt/brian_profile.jpg): Photo by <a href="https://www.pexels.com/@rodnae-prod/">RODNAE Productions</a> on <a href="https://www.pexels.com/">Pexels</a>
-- [Picture of Stephen](/assets/Images/web_img_opt/stephen_profile.jpg): Photo by <a href="https://www.pexels.com/@olly/">Andrea Piacquadio</a> on <a href="https://www.pexels.com/">Pexels</a>
-- [Picture of Sarah](/assets/Images/web_img_opt/sarah_profile.jpg): Photo by <a href="https://www.pexels.com/@polina-zimmerman/">Polina Zimmerman</a> on <a href="https://www.pexels.com/">Pexels</a>
-- [Open Reception area Lights](/assets/Images/open_rec_light.jpg): Photo by <a href="https://www.pexels.com/@pixabay/">Pixabay</a> on <a href="https://www.pexels.com/">Pexels</a>
-- [Office stairs and people](/assets/Images/web_img_opt/office_stairs_modern.jpg): Photo by <a href="https://www.pexels.com/@proxyclick/">Proxyclick Visitor Management System</a> on <a href="https://www.pexels.com/">Pexels</a>
-- [Modern office white](/assets/Images/web_img_opt/modern_office_white_lights.jpg): Photo by <a href="https://www.pexels.com/@pixabay/">Pixabay</a> on <a href="https://www.pexels.com/">Pexels</a>
-- [Modern Boardroom wooden ceiling](/assets/Images/web_img_opt/meeting_wooden_ceiling_lights.jpg): Photo by <a href="https://www.pexels.com/@myhq-workspaces-3638298/">myHQ-Workspaces</a> on <a href="https://www.pexels.com/">Pexels</a>
-- [Microsoft recpetion area](/assets/Images/web_img_opt/office_stairs_work.jpg): Photo by <a href="https://www.pexels.com/@proxyclick/">Proxyclick Visitor Management System</a> on <a href="https://www.pexels.com/">Pexels</a>
-- [Modern reception area](/assets/Images/web_img_opt/modern_reception_area.jpg): Photo by <a href="https://www.pexels.com/@rajeshverma/">RAJESH KUMAR VERMA</a> on <a href="https://www.pexels.com/">Pexels</a>
-- [Error 404 Image](/assets/Images/error404_img.jpg): Photo by <a href="https://www.freepik.com/author/pikisuperstar">pikisuperstar</a> on <a href="https://www.freepik.com/">Freepik</a>
----
   
 ### Code used and adapted
 
-In order of apearance:
-- <a href="https://getbootstrap.com/docs/5.2/components/carousel/#how-it-works">Bootstrap Version 5.2</a> to install a 3 image Carousel feature on my Hero Images on the Home Screen. The Carousel has a button wither side of the image to allow the user to scroll through the images manually. 
-- <a href="https://www.youtube.com/watch?v=At4B7A4GOPg">Web Dev Simplified</a> tutorial to learn how to utilise JavaScript to make a responsive Navbar toggle button for use with mobile devices. 
-- <a href="https://www.w3schools.com/howto/howto_css_image_overlay.asp">W3 Schools</a> to learn how to do a Image Hover Overlay effect for the Our Projects Images detailing the project information and also the Profiles on the Our Company page to show the name and conatct details of the staff within DND Group.
+In order of appearance:
+- <a href="https://www.youtube.com/watch?v=jaVNP3nIAv0">Free Code Camp</a> was used to understand Rock Paper Scissors Javascript formation and how to structure the code and functions to achioeve the end result. Inspiration was also taken in sections of the page for design of my Rock Paper Scissors game.
+- <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction">MDN Web Docs</a> to assist in correct formation of functions and event listeners.
 - <a href="https://github.com/4n4ru/CI_MS1_BodelschwingherHof"> Ana ( github = 4n4ru )</a> to assist with structure and expectation required for a Github README section. 
 - <a href="https://www.w3schools.com">W3 Schools</a> was used to assist me in small programming methods I had throughout the entire Project. 
-- <a href="https://www.cobeceng.com/contact-us/">Cobec Eng</a> Contact Us page was used as design inspiration for the DND Group Contact Us site. The code is was written myself utiling resources such as <a href="https://www.w3schools.com">W3 Schools</a>.
-- <a href="https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopmentecomm">Code Institute</a> Software development course was used to assist me in small programming methods I had throughout the entire Project  through the well taught and informative Tutorials. I also used the Love Running tutorials to learn how to embed a google map on site.
-- <a href="https://masoomulhaq.com/articles/no-more-image-stretching-issue-in-your-website/">masoomulhaq</a> To learn how to set my header image on the our company, our projects and contact us pages. The image was appearing pixalated and stretched. This site showed me options within CSS to set image position as a header image without stretching the image and becoming pixalated.
-- <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site">GitHub Pages</a> To learn how to set my error 404 page up and link to website and correct information abour forking and cloning repositorys.
+- <a href="https://www.youtube.com/watch?v=sEJB7FtBoug&t=2s">Coding Artist</a> video was used to assist on the ability to Get a PopUp page to appear automatically on loading of the page. 
+- <a href="https://www.youtube.com/watch?v=aEj0Wu33hJM">Six Minutes Smarter</a> video was used to assist on the ability to take the value from my textbox on the PopUp to display within the game area container. This was to allow the user to insert there name within the game and it to be displayed beside there score in the scoring area. 
+- <a href="https://www.w3schools.com/tags/tag_meta.asp">W3 Schools</a> Meta Tag information on how to improve the web page SEO.
+- <a href="https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopmentecomm">Code Institute</a> Software development course was used to assist me in small programming methods I had throughout the entire Project through the well taught and informative Tutorials. I also used the Love Maths tutorials to learn how to use the DOMCONTENTLOADED function and the focus Function to allow the text box on the PopUp to be automatically ready to enetr the Player Name Text.
 
 ## Acknowledgment
 
