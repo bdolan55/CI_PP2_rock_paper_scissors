@@ -1,5 +1,5 @@
     /* This Event listener is there to wait for the page to 
-    load and the will run a function for the coad on the page*/
+    load and the will run then function for the code on the page*/
     document.addEventListener("DOMContentLoaded" , function() {
 
 
