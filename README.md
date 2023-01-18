@@ -92,6 +92,7 @@ The Rock Paper Scissors Game is a simple and fun game. It has been created using
 10. As the site owner, Provide the ability to see the score in the current match.
 11. As the site owner, Provide clear indication on who wins , losses or draw the hand.
 12. As the site owner, Provide clear indication on who wins , losses or draw the match.
+13. As the site owner, Provide the player the ability to reset the scores on the current game and start again at 0-0.
 ---
 
 ## Design
@@ -176,18 +177,19 @@ The website consists of a main home page hosting the Rock Paper Scissors game an
 - The game areas Rock Paper and Scissors Hand Emojis have a hover effect when the mouse is over it to show which hand you may select.
 - Above the Rock Paper Sciccors Hand Emojis there is text to show you the result of the hand just played. The text color changes with the result of the round. Green for Win, Red for loss and Orange for Draw.
 - The game areas Rock Paper and Scissors Hand Emojis have an result color glow when clicked to show the round result. Green for Win, Red for loss and Orange for Draw.
-- The Scoring Area is responsive to different screen sizes to assist with playing on different devices.
+- The Game Area is responsive to different screen sizes to assist with playing on different devices.
 - User Stories Covered: 4, 9 and 11
 
 ![Game Area](/assets/images/hovering_hand_win.png)
 
-### Our Company Employee Profiles
-- Clean Professional profile Images of Managerial Staff within DND Group.
-- Hover Effect on Staff when pointer lands on profile image to show Name, Position and Contact details for Managerial Staff within DND Group.
-- User Stories Covered: 1 , 2 , 8 , 10.
+### Game Reset
+- The "Reset Game" button has a hover effect to change color to red for when the player puts the pointer on it. This red color indicates as a warning that if pressed the current game will end and the scores will return to 0-0.
+- When the player presses the "Reset Game" button this will trigger a function to reset the game scores to 0-0 and start again.
+- The Game Reset button is responsive to different screen sizes to assist with playing on different devices.
+- User Stories Covered: 5, 9 and 13.
 
 
-![Our Company Employee Profiles](/docs/features/staff_profiles_hover.png)
+![Our Company Employee Profiles](/assets/images/reset_btn.png)
 
 ### Footer
 - The footer is a feature that continues through all 4no. pages on the website.
@@ -318,6 +320,9 @@ The website was tested on the following browsers:
     * When the player decides and clicks the chosen hand, the hand will glow a color of green for win, Red for lose or Orange for draw. Text above the emjois will also tell player the result of the round and will be coloured the same as the hand gesture with the result.  
 12. As the site owner, Provide clear indication on who wins , losses or draw the match.
     * The game is first to 5 so when either the player or computer gets to 5 the user will be met with an alert box stating if they have won, lost or drawn and will reset the game to 0-0 when the user presses ok.
+13. As the site owner, Provide the player the ability to reset the scores on the current game and   
+    start again at 0-0.
+    * There is reset button located at the bottom of the game container area. When pressed this will end the current game and reset the score to 0-0.
 ---
 
 ## Bugs
