@@ -38,6 +38,13 @@
     document.getElementById("player_name").focus();
 
     /**
+    * The below Event listener will run when the reset game button is click and will run the 
+    resetGame function and return scores to 0-0.
+    **/
+
+    letsFight.addEventListener('click', resetGame);
+
+    /**
      * The code below is the method function on how the game works.
      * When the the player chooses and hand it runs a "if, else if" statement
      * This statement compares the conditions on what outcome shall be taken wether it is True or False.
@@ -79,6 +86,7 @@
      * It will change the hand result text and color to Orange and the timeout function 
     will execute. 
      * After 1 second the function will timeout and return to default text and color.
+     * The whatScore function will run when either the player or computer reaches 5 wins.
     **/
 
     function playerDraw() {
@@ -91,11 +99,13 @@
         
     }
 
-        /**
+    /**
      * The code below is the function that will run when the player wins the round.
      * It will change the result text and color to Green and the timeout function 
     will execute. 
+    * It will increment the Player Score by 1.
     * After 1 second the function will timeout and return to default text and color.
+    * The whatScore function will run when either the player or computer reaches 5 wins.
     **/
 
     function playerWins() {
@@ -110,7 +120,15 @@
         whatScore();
     }
 
-    
+    /**
+     * The code below is the function that will run when the Computer wins the round.
+     * It will change the result text and color to Red and the timeout function 
+    will execute. 
+    * It will increment the Computer Score by 1.
+    * After 1 second the function will timeout and return to default text and color.
+    * The whatScore function will run when either the player or computer reaches 5 wins.
+    **/
+
     function compWins() {
         let oldScore = parseInt(document.getElementById("compScore").innerText);
         document.getElementById("compScore").innerText = ++oldScore;
@@ -122,31 +140,49 @@
         resultOutput.innerHTML = "Computer won this Round!!!";
     }
 
+    /**
+     * The code below is the function that will determine the Computer hand selection
+     from the avaialble options in the Array in the availableSelections Variable.
+    **/
 
     function compSelection() {
         const randomCompChoice = Math.floor(Math.random() * availableSelections.length);
         return availableSelections[randomCompChoice];
     }
 
+    /**
+     * The code below is the function that will run when either the Player
+     or computer reaches 5.
+     * When either player reaches five it an alert will Pop up and give the result of the game.
+     * When the OK button is clicked on the Alert the game will reset to default 0-0 score.
+    **/
+
     function whatScore() {
         if (document.getElementById("playerScore").innerText == 5) {
             alert("GAME OVER -- You Win");
-            resultOutput.innerHTML = "YOU WIN ___ GAME OVER";
             resetGame();
         } else if (document.getElementById("compScore").innerText == 5) {
             alert("GAME OVER -- You Lose");
-            resultOutput.innerHTML = "YOU LOSE ___ GAME OVER";
             resetGame();
         }
     }
+
+    /**
+     * The code below is the function that will run when the OK button is clicked on the alert PopUp.
+     * Score Values for both the player and the computer will return to "0".
+     * Default text will return and prompt player to choose his hand.
+    **/
 
     function resetGame(){
         document.getElementById("compScore").innerText = 0;
         document.getElementById("playerScore").innerText = 0;
         resultOutput.innerHTML = "Choose your Fighter!!!!";
-
     }
 
+    /**
+     * The code below is the function that has an event listener on each hand to determine when
+     the game will start and what is hand is chosen .
+    **/
 
     function runGame() {
             rockHand.addEventListener('click', function() {
@@ -158,15 +194,17 @@
             scissorsHand.addEventListener('click', function() {
                 gameChoice("scissors");
             });
-
         }
+
+    /**
+     * The code below is the function states to remove the CSS disabled class on
+      the game container when the closePopUp function is called.
+    **/
 
         function closePopup(){
             document.body.classList.remove("disabled-background");
         }
 
         runGame();
-
-        letsFight.addEventListener('click', resetGame);
 
     });
