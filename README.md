@@ -149,18 +149,18 @@ The website has been presented in a User friendly and easily navigated way. On v
 
 
 ## Features
-The page consists of Four pages and eight site features.
+The website consists of a main home page hosting the Rock Paper Scissors game and a Popup screen explaining the rules of the game and textbox for entering the players name.
 
-### Logo and Navigation Bar
-- The navbar is transparent / blurry to look and  give the glass effect.
-- The navbar is sticky throughout the page scrolling to assist in site navigation.
-- The navbar is fully responsive and uses a toggle burger effect menu for smaller screen sizes and includes links to all 4 pages on the DND Group site.
-- The navbar also has Hover and underline effect when pointer hovers on page link.
-- DND Logo on navbar in Poppins Font to continue continuity through website with clean, simple and effective look.
-- User Stories Covered: 4
+### PopUp Box
+- The Popup box appears on first load of the page on top of the game area.
+- The Popup box coloring is the same as the game container to encourage continuity throughout the page.
+- The Popup box has a enter name textbox at the bottom to allow for the site visitor to enter there name so the value of this textbox will be entered in the game area at the player score section.
+- The Popup box has a enter name textbox at the bottom and has an focus event set. This allows the user the ability to type straight into the textbox area without having to click into the textbox. 
+- The "Lets Fight" button located at the bottom of the page is linked with a function as to when the user enters there name and clicks it the Popup box will dissappear and the event listener click on the button runs the game function for the user to play.
+- User Stories Covered: 1, 2, 5, 7, 8 and 9
 
 
-![Logo and navbar](/docs/features/logo_navbar.png)
+![Logo and navbar](/assets/images/onload_popup.png)
 
 ### Carousel
 - The 3no. Carousel Images are to promote clean / stylish look and emphasise on Lighting effects.
